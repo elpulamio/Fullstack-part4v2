@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWQiOiI2MDNhNDc3NGNkNDQ2ODJiMWM5ZDQ2OTAiLCJpYXQiOjE2MTQ0NDI2MDN9.gcEAU0Ii321MkA1YpvHaSabdfQJD7e4qB20SnlUq_F4
+
+{
+    "title": "Testing testing 44",
+    "author": "TT",
+    "url": "https://www.digitalocean.com",
+    "likes": "444"
+}
